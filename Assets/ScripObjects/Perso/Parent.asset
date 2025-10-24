@@ -12,75 +12,86 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Parent
   m_EditorClassIdentifier: Assembly-CSharp::DataPerso
-  anwserTheQuestion: 
+  anwserTheQuestion: {fileID: 0}
   questions:
   - variantes:
-    - "Oh s\u2019est long ta phrase, sa va j\u2019ai capt\xE9."
-    - "Voil\xE0 une \xE9num\xE9ration qui ne manque pas de s\xE9rieux."
-    - Vous parlez toujours avec des phrases aussi longues ?
-    - "Oh s\u2019est long votre \xE9num\xE9ration, sa va j\u2019ai capt\xE9."
-    - "Vous parlez toujours avec des \xE9num\xE9rations si insipides ?"
-    - "Oh s\u2019est long ta phrase, tu parles toujours comme \xE7a ?"
-    - "Oh s\u2019est long votre \xE9num\xE9ration, vous parlez toujours comme \xE7a
-      ?"
+    - "<color=#00FFFF>Oh s\u2019est long ta phrase, sa va j\u2019ai capt\xE9.</color>"
+    - "<i>Voil\xE0 une \xE9num\xE9ration qui ne manque pas de s\xE9rieux.</i>"
+    - <b>Vous parlez toujours avec des phrases aussi longues ?</b>
+    - "<color=#00FFFF>Oh s\u2019est long</color> <i>votre \xE9num\xE9ration,</i>
+      <color=#00FFFF>sa va j\u2019ai capt\xE9.</color>"
+    - "<b>Vous parlez toujours avec des</b> <i>\xE9num\xE9rations si insipides ?</i>"
+    - "<color=#00FFFF>Oh s\u2019est long ta phrase,</color> <b>tu parles toujours
+      comme \xE7a ?</b>"
+    - "<color=#00FFFF>Oh s\u2019est long</color> <i>votre \xE9num\xE9ration,</i><b>
+      vous parlez toujours comme \xE7a ?</b>"
     - "Tu fais des phrases longues et s\xE9rieuses\u2026"
     answer: {fileID: 11400000, guid: acd9db92926ef074ea0b1ad6d37ed686, type: 2}
   - variantes:
-    - "Qu\u2019est ce j\u2019en est \xE0 faire de d\u2019venir adulte ?"
-    - "Quels motifs pourraient me pousser \xE0 suivre vos \xE9lucubrations ?"
-    - Pourquoi devenir un adulte et ne pas rester enfant ?
-    - "Qu\u2019est ce j\u2019en est \xE0 faire  de suivre vos \xE9lucubrations ?"
-    - "Quels motifs pourraient me pousser \xE0 ne pas rester enfant ?"
-    - "Qu\u2019est ce j\u2019en ai \xE0 faire de devenir un adulte et ne pas rester
-      enfant ?"
-    - "Qu\u2019est ce j\u2019en est \xE0 faire de devenir un adulte. Ne puis-je simplement
-      pas rester un \xE9ternel bambin ?\r"
+    - "<color=#00FFFF>Qu\u2019est ce j\u2019en est \xE0 faire de d\u2019venir adulte
+      ?</color>"
+    - "<i>Quels motifs pourraient me pousser \xE0 suivre vos \xE9lucubrations ?</i>"
+    - <b>Pourquoi devenir un adulte et ne pas rester enfant ?</b>
+    - "<color=#00FFFF>Qu\u2019est ce j\u2019en est \xE0 faire  de</color> <i>suivre
+      vos \xE9lucubrations ?</i>"
+    - "<i>Quels motifs pourraient me pousser \xE0</i> <b>ne pas rester enfant ?</b>"
+    - "<color=#00FFFF>Qu\u2019est ce j\u2019en ai \xE0 faire de</color> <b>devenir
+      un adulte et ne pas rester enfant ?</b>"
+    - "<color=#00FFFF>Qu\u2019est ce j\u2019en est \xE0 faire</color> <b>de devenir
+      un adulte.</b> <i>Ne puis-je simplement pas rester un \xE9ternel bambin ?</i>\r"
     - Pourquoi je devrais devenir adulte ?
     answer: {fileID: 11400000, guid: 770dfe94f6a07424c9e1917f89f21278, type: 2}
   - variantes:
-    - "Et js\u2019uppose que tu veux que jt\u2019\xE9couter toi plut\xF4t qu\u2019la
-      ma\xEEtresse."
-    - "Si vos conseils, je n\u2019en doute avis\xE9s, ne sied \xE0 la vision de mes
-      distingu\xE9s professeurs, qui dois-je \xE9couter ?"
-    - "Mes profs ne m\u2019ont pas dit la m\xEAme chose. Comment savoir qui a raison
-      ?"
-    - "Et js\u2019uppose que tu veux que j\u2019\xE9coute ton avis, je n\u2019en
-      doute avis\xE9, plut\xF4t qu\u2019mes distingu\xE9s professeurs ?"
-    - "Et si tes conseils ne si\xE9ent \xE0 la vision de mes distingu\xE9s professeurs,
-      qui j'\xE9coute ? "
-    - "Mes profs ne m\u2019ont pas dit la m\xEAme chose. Et js\u2019uppose que tu
-      veux que jt\u2019\xE9couter toi."
-    - "Mes profs, dont les conseils sont plus qu'avis\xE9s, ne m\u2019ont pas dit
-      la m\xEAme chose.  Mais js\u2019uppose que tu veux que jt\u2019\xE9couter toi."
+    - "<color=#00FFFF>Et js\u2019uppose que tu veux que jt\u2019\xE9couter toi plut\xF4t
+      qu\u2019la ma\xEEtresse.</color> "
+    - "<i>Si vos conseils, je n\u2019en doute avis\xE9s, ne sied \xE0 la vision de
+      mes distingu\xE9s professeurs, qui dois-je \xE9couter ?</i>"
+    - "<b>Mes profs ne m\u2019ont pas dit la m\xEAme chose. Comment savoir qui a
+      raison ?</b>"
+    - "<color=#00FFFF>Et js\u2019uppose que tu veux que j\u2019\xE9coute</color>
+      <i>ton avis, je n\u2019en doute avis\xE9,</i> <color=#00FFFF>plut\xF4t qu\u2019mes</color>
+      <i>distingu\xE9s professeurs ?</i>"
+    - "<b>Et si tes conseils</b> <i>ne si\xE9ent \xE0 la vision de mes distingu\xE9s
+      professeurs,</i> qui j'\xE9coute ?</b>  "
+    - "<b>Mes profs ne m\u2019ont pas dit la m\xEAme chose.</b> <color=#00FFFF>Et
+      js\u2019uppose que tu veux que jt\u2019\xE9couter toi.</color>"
+    - "<b>Mes profs,</b> <i>dont les conseils sont plus qu'avis\xE9s,</i> <b>ne m\u2019ont
+      pas dit la m\xEAme chose.</b> <color=#00FFFF>Mais js\u2019uppose que tu veux
+      que jt\u2019\xE9couter toi.</color>"
     - "Et si la ma\xEEtresse est pas d\u2019accord avec toi je dois \xE9couter qui
       ?"
     answer: {fileID: 11400000, guid: 145c68ce71d62fa4c9d86d0f6785dba8, type: 2}
   - variantes:
-    - "Euh\u2026 ouai non \xE7a \xE0 l\u2019air nul ton truc. J\u2019pr\xE9f\xE8re
-      rester avec mes potes."
-    - "Cela est peu vendeur, je dois vous l'avouer. Dois-je r\xE9ellement m'astreindre
-      \xE0 r\xE9aliser ces besognes ?"
-    - "\xC7a me semble beaucoup. Je devrais peut-\xEAtre \xE9couter mes amis et rester
-      jeune. "
-    - "Euh\u2026 ouai non, Cela est peu vendeur. Dois-je r\xE9ellement m'astreindre
-      \xE0 r\xE9aliser ces trucs ? J\u2019pr\xE9f\xE8re rester avec mes potes."
-    - "Cela est peu vendeur, je dois vous l'avouer. Je devrais peut-\xEAtre \xE9couter
-      mes amis et rester jeune. "
-    - "Euh\u2026 ouai non, Je devrais peut-\xEAtre \xE9couter mes potes et rester
-      jeune. "
-    - "Cela est peu vendeur, \xE7a \xE0 l\u2019air nul. Je devrais peut-\xEAtre \xE9couter
-      mes amis et pas faire tes trucs."
+    - "<color=#00FFFF>Euh\u2026 ouai non \xE7a \xE0 l\u2019air nul ton truc. J\u2019pr\xE9f\xE8re
+      rester avec mes potes.</color>"
+    - "<i>Cela est peu vendeur, je dois vous l'avouer. Dois-je r\xE9ellement m'astreindre
+      \xE0 r\xE9aliser ces besognes ?</i>"
+    - "<b>\xC7a me semble beaucoup. Je devrais peut-\xEAtre \xE9couter mes amis et
+      rester jeune.</b>"
+    - "<color=#00FFFF>Euh\u2026 ouai non,</color> <i>Cela est peu vendeur. Dois-je
+      r\xE9ellement m'astreindre \xE0 r\xE9aliser ces</i> <color=#00FFFF>trucs ?
+      J\u2019pr\xE9f\xE8re rester avec mes potes.</color>"
+    - "<i>Cela est peu vendeur, je dois vous l'avouer.</i> <b>Je devrais peut-\xEAtre
+      \xE9couter mes amis et rester jeune.</b> "
+    - "<color=#00FFFF>Euh\u2026 ouai non,</color> <b>Je devrais peut-\xEAtre \xE9couter
+      mes</b> <color=#00FFFF>potes</color> <b>et rester jeune.</b> "
+    - "<i>Cela est peu vendeur,</i> <color=#00FFFF>\xE7a \xE0 l\u2019air nul.</color>
+      <b>Je devrais peut-\xEAtre \xE9couter mes amis et pas</b> <color=#00FFFF>faire
+      tes trucs.</color> "
     - "C\u2019est beaucoup trop! Les autres enfants avaient peut-\xEAtre raison,
       grandir c\u2019est nul\u2026"
     answer: {fileID: 11400000, guid: 596006c8e38e60c41b2183371332b72e, type: 2}
   - variantes:
-    - "Et j\u2019dois faire tout \xE7a quand ?"
-    - "Quand devrais-je m'atteler \xE0 ces t\xE2ches hercul\xE9ennes ?"
-    - "Quand est-ce que je devrais m\u2019y mettre ?"
-    - "Quand devrais-je m'atteler \xE0  tout \xE7a l\xE0 ?"
-    - "Quand est-ce que je devrais me mettre \xE0 ces t\xE2ches hercul\xE9ennes ?"
-    - "Quand est-ce que  j\u2019dois faire  toutes ces t\xE2ches l\xE0 ?"
-    - "Quand est-ce que j\u2019dois faire tous ces t\xE2ches hercul\xE9ennes ?"
+    - "<color=#00FFFF>Et j\u2019dois faire tout \xE7a quand ?</color>"
+    - "<i>Quand devrais-je m'atteler \xE0 ces t\xE2ches hercul\xE9ennes ?</i>"
+    - "<b>Quand est-ce que je devrais m\u2019y mettre ?</b>"
+    - "<i>Quand devrais-je m'atteler \xE0</i>  <color=#00FFFF>tout \xE7a l\xE0 ?</color>"
+    - "<b>Quand est-ce que je devrais me mettre</b> <i>\xE0 ces t\xE2ches hercul\xE9ennes
+      ?</i>"
+    - "<b>Quand est-ce que</b>  <color=#00FFFF>j\u2019dois faire</color>  <b>toutes
+      ces t\xE2ches</b> <color=#00FFFF>l\xE0 ?</color>"
+    - "<b>Quand est-ce que</b> <color=#00FFFF>j\u2019dois faire tous</color> <i>ces
+      t\xE2ches hercul\xE9ennes ?</i>"
     - "C\u2019est quand que j\u2019aurais tout \xE7a \xE0 faire ?"
     answer: {fileID: 11400000, guid: ee2c6acdb274b124eb10d214b52e952b, type: 2}
   textSpeed: 0.2

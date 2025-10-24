@@ -12,61 +12,74 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Prof
   m_EditorClassIdentifier: Assembly-CSharp::DataPerso
-  anwserTheQuestion: 
+  anwserTheQuestion: {fileID: 0}
   questions:
   - variantes:
-    - "Oah t\u2019aveugle! Tu veux pas t\u2019\xE9teindre un peu genre ?"
-    - "Pourquoi luisez-vous de telle mani\xE8re ?"
-    - Pourquoi est-ce que vous brillez ?
-    - "Oah vous aveuglez. Pourquoi luisez-vous comme \xE7a genre ?"
-    - "Pourquoi est-ce que vous luisez de telle mani\xE8re ?"
-    - Oah. Pourquoi vous brillez ?
-    - Oah vous luisez tant genre. Pourquoi vous brillez ?
+    - "<color=#00FFFF>Oah t\u2019aveugle! Tu veux pas t\u2019\xE9teindre un peu genre
+      ?</color>"
+    - "<i>Pourquoi luisez-vous de telle mani\xE8re ?</i>"
+    - <b>Pourquoi est-ce que vous brillez ?</b>
+    - "<color=#00FFFF>Oah vous aveuglez</color>. <i>Pourquoi luisez-vous</i> <color=#00FFFF>comme
+      \xE7a genre ?</color>"
+    - "<b>Pourquoi est-ce que</b> <i>vous luisez de telle mani\xE8re ?</i>"
+    - <color=#00FFFF>Oah.</color> <b>Pourquoi vous brillez ?</b>
+    - <color=#00FFFF>Oah</color> <i>vous luisez tant</i> <color=#00FFFF>genre.</color>
+      <b>Pourquoi vous brillez ?</b>
     - 'Pourquoi tu brille ?
 
 '
     answer: {fileID: 11400000, guid: 6f0929ad28ded5f429c027380eb76cb8, type: 2}
   - variantes:
-    - "Pourquoi j\u2019dois apprendre tes trucs genre ?"
-    - "Pour quels motifs devrions-nous nous astreindre \xE0 apprendre des le\xE7ons
-      ?"
-    - "Pourquoi je devrais apprendre mes le\xE7ons ?"
-    - Pour quels motifs devrions-nous apprendre tes trucs genre ?
-    - "Pourquoi je devrais m\u2019astreindre \xE0 apprendre mes le\xE7ons ?\r\n"
-    - "Eh\u2026 Pourquoi j\u2019dois apprendre mes le\xE7ons ?\r\n"
-    - "Pourquoi j\u2019dois m\u2019astreindre \xE0 apprendre mes le\xE7ons ?"
-    - "Pourquoi y\u2019a des le\xE7ons \xE0 apprendre ?"
+    - "<color=#00FFFF>Pourquoi j\u2019dois apprendre tes trucs genre ?</color>"
+    - "<i>Pour quels motifs devrions-nous nous astreindre \xE0 apprendre des le\xE7ons
+      ?</i>"
+    - "<b>Pourquoi je devrais apprendre mes le\xE7ons ?</b>"
+    - <i>Pour quels motifs devrions-nous</i> <color=#00FFFF>apprendre tes trucs genre
+      ?</color>
+    - "<b>Pourquoi je devrais</b> <i>m\u2019astreindre \xE0 apprendre mes le\xE7ons
+      ?</i>\r\r\n"
+    - "color=#00FFFF>Eh\u2026 Pourquoi j\u2019dois</color> <b>apprendre mes le\xE7ons
+      ?</b>"
+    - "<color=#00FFFF>Pourquoi j\u2019dois</color> <i>m\u2019astreindre \xE0</i>
+      <b>apprendre mes le\xE7ons ?</b>"
+    - "Pourquoi y\u2019a des le\xE7ons \xE0 apprendre "
     answer: {fileID: 11400000, guid: 3d09a44fa47591142b26771a22b4ef75, type: 2}
   - variantes:
-    - "Pourquoi j\u2019devrais t'\xE9couter toi et pas mes darons ?"
-    - "Pourquoi devrais-je apporter plus de cr\xE9dits \xE0 vos paroles qu'\xE0 celles
-      de mes g\xE9niteurs ?"
-    - "Pourquoi je devrais vous \xE9couter plus que mes parents ?"
-    - "Pourquoi devrais-je apporter plus de cr\xE9dits \xE0 vos paroles qu'\xE0 s\u2019que
-      dises mes darons ?"
-    - "Pourquoi devrais-je apporter plus de cr\xE9dits \xE0 ce que vous dites ?"
-    - "Pourquoi je devrais vous \xE9couter plus que mon daron ?"
-    - "Pourquoi je devrais vous donner plus de cr\xE9dits qu\u2019a mes darons ?"
+    - "<color=#00FFFF>Pourquoi j\u2019devrais t'\xE9couter toi et pas mes darons
+      ?</color>"
+    - "<i>Pourquoi devrais-je apporter plus de cr\xE9dits \xE0 vos paroles qu'\xE0
+      celles de mes g\xE9niteurs ?</i> "
+    - "<b>Pourquoi je devrais vous \xE9couter plus que mes parents ?</b>"
+    - "<i>Pourquoi devrais-je apporter plus de cr\xE9dits \xE0 vos paroles</i> <color=#00FFFF>qu'\xE0
+      s\u2019que dises mes darons ?</color>"
+    - "<i>Pourquoi devrais-je apporter plus de cr\xE9dits</i> <b>\xE0 ce que vous
+      dites ?</b>"
+    - "<b>Pourquoi je devrais vous \xE9couter</b> <color=#00FFFF>plus que mon daron
+      ?</color> "
+    - "<b>Pourquoi je devrais vous donner</b> <i>plus de cr\xE9dits</i> <color=#00FFFF>qu\u2019a
+      mes darons ?</color>"
     - "Pourquoi \xE9couter toi et pas mes parents ? "
     answer: {fileID: 11400000, guid: 421385f64b5dbdf448483a3e25715e06, type: 2}
   - variantes:
-    - "T\u2019es pas ok avec mon pote ?"
-    - "Vous n'\xEAtes point en accord avec mon camarade ?"
-    - "Tu n'es pas d\u2019accord avec mon ami ?"
-    - "Vous n'\xEAtes point en accord avec mon pote ? "
-    - "Vous n'\xEAtes pas d\u2019accord avec mon camarade ?"
-    - "Tu n'es pas d\u2019accord avec mon pote ?"
-    - "Vous n'\xEAtes point ok avec mon ami ?"
+    - "<color=#00FFFF>T\u2019es pas ok avec mon pote ?</color> "
+    - "<i>Vous n'\xEAtes point en accord avec mon camarade ?</i>"
+    - "<b>Tu n'es pas d\u2019accord avec mon ami ?</b>"
+    - "<i>Vous n'\xEAtes point en accord</i> <color=#00FFFF>avec mon pote ?</color>  "
+    - "<b>Vous n'\xEAtes pas d\u2019accord</b> <i>avec mon camarade ?</i> "
+    - "<b>Tu n'es pas d\u2019accord</b> <color=#00FFFF>avec mon pote?</color>"
+    - "<i>Vous n'\xEAtes point</i> <color=#00FFFF>ok</color> <b>avec mon ami ?</b>"
     - "Tu n'est pas d\u2019accord avec mon ami non plus ?"
     answer: {fileID: 11400000, guid: 4977572086398784e8f27156dee6f3af, type: 2}
   - variantes:
-    - "On fait comment pour\u2019etes tarpin lumineux ?"
-    - "De quel miracle usez vous afin d'\xE9mettre tant de lueur divine ?"
-    - Comment on fait pour briller comme toi ?
-    - "De quel miracle usez vous pour\u2019etes tarpin lumineux genre ?"
-    - "Comment on fait pour \xE9mettre tant de lueur divine ?"
-    - "Comment on fait pour \xEAtre  tarpin lumineux ?"
-    - "On fait comment pour briller d\u2019une lueur tarpin divine ?"
+    - "<color=#00FFFF>On fait comment pour\u2019etes tarpin lumineux ?</color>"
+    - "<i>De quel miracle usez vous afin d'\xE9mettre tant de lueur divine ?</i>"
+    - <b>Comment on fait pour briller comme toi ?</b>
+    - "<i>De quel miracle usez vous</i> <color=#00FFFF>pour\u2019etes tarpin lumineux
+      genre ?</color>"
+    - "<b>Comment on fait pour</b> <i>\xE9mettre tant de lueur divine ?</i>"
+    - "<b>Comment on fait pour \xEAtre</b>  <color=#00FFFF>tarpin lumineux ?</color>"
+    - "<color=#00FFFF>On fait comment</color> <b>pour briller</b> <i>d\u2019une lueur</i>
+      <color=#00FFFF>tarpin</color> <i>divine</i> ?"
     - Comment on brille ?
     answer: {fileID: 11400000, guid: 738aa73fc09275644bfff019475ca095, type: 2}
   textSpeed: 0.1

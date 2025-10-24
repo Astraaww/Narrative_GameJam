@@ -12,62 +12,73 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Ami
   m_EditorClassIdentifier: Assembly-CSharp::DataPerso
-  anwserTheQuestion: 
+  anwserTheQuestion: {fileID: 0}
   questions:
   - variantes:
-    - "Pourquoi on\u2019es pas comme les aut\u2019 ?\r\n\r"
-    - 'Que diable vous arrive-t-il pour vous exprimer ainsi?
+    - "<color=#00FFFF>Pourquoi on\u2019es pas comme les aut\u2019 ?</color>\r\n\r"
+    - '<i>Que diable vous arrive-t-il pour vous exprimer ainsi ?</i>
 
 '
-    - Pourquoi est-ce que tu ne ressembles pas aux autres ?
-    - "Pourquoi diable on\u2019es pas comme les autres."
-    - "Que diable vous arrive-t-il pour \xEAtre si diff\xE9rent des autres ?"
-    - "Pourquoi est-ce qu\u2019on\u2019es pas comme les aut\u2019 ?"
-    - "Pourquoi diable on est si diff\xE9rents  des aut\u2019 ?"
+    - <b>Pourquoi est-ce que tu ne ressembles pas aux autres ?</b>
+    - "<i>Pourquoi diable</i> <color=#00FFFF>on\u2019es pas comme les autres.</color>"
+    - "<i>Que diable vous arrive-t-il</i> <b>pour \xEAtre si diff\xE9rent des autres
+      ?</b>"
+    - "<b>Pourquoi est-ce qu\u2019</b><color=#00FFFF>on\u2019es pas comme les aut\u2019
+      ?</color>"
+    - "<i>Pourquoi diable</i> <b>on est si diff\xE9rents</b>  <color=#00FFFF>des
+      aut\u2019 ?</color>"
     - Pourquoi on est pas comme les autres ?
     answer: {fileID: 11400000, guid: e02b19402337ba34ab5c295f5b8d7c03, type: 2}
   - variantes:
-    - "J\u2019ai caus\xE9 avec la porte. Elle veut que j\u2019grandisse."
-    - "Sieur la porte m\u2019a pourtant somm\xE9 de prestement m\u2019\xE9manciper."
-    - "La porte m\u2019a pourtant demand\xE9 de grandir."
-    - "J\u2019ai convers\xE9 avec Sieur la porte. Elle veut que j\u2019grandisse.\r"
-    - "La porte m\u2019a pourtant demand\xE9 de prestement m\u2019\xE9manciper."
-    - "J\u2019ai caus\xE9 avec la porte. Elle m\u2019a demand\xE9 de grandir."
-    - "J\u2019ai caus\xE9 avec Sieur la porte. Elle m\u2019a demand\xE9 de grandir."
+    - "<color=#00FFFF>J\u2019ai caus\xE9 avec la porte. Elle veut que j\u2019grandisse.</color>"
+    - "<i>Sieur la porte m\u2019a pourtant somm\xE9 de prestement m\u2019\xE9manciper.</i>"
+    - "<b>La porte m\u2019a pourtant demand\xE9 de grandir.</b>"
+    - "<i>J\u2019ai convers\xE9 avec Sieur la porte.</i> <color=#00FFFF>Elle veut
+      que j\u2019grandisse.</color>\r"
+    - "<b>La porte m\u2019a pourtant demand\xE9</b> <i>de prestement m\u2019\xE9manciper.</i>"
+    - "<color=#00FFFF>J\u2019ai caus\xE9 avec la porte.</color> <b>Elle m\u2019a
+      demand\xE9 de grandir.</b>\r"
+    - "<color=#00FFFF>J\u2019ai caus\xE9 avec</color> <i>Sieur la porte.</i> <b>Elle
+      m\u2019a demand\xE9 de grandir.</b>"
     - "Mais la porte elle m\u2019as dit que il fallait que je grandisse\r"
     answer: {fileID: 11400000, guid: f7fdeff7e3b637f4692a8e89be905562, type: 2}
   - variantes:
-    - "Pourquoi tu cala pas la ma\xEEtresse ?"
-    - "Pour quels motifs ne pr\xEAtez- vous pas attention aux conseils avis\xE9s
-      de vos professeurs ?"
-    - "Pourquoi tu n\u2019\xE9coutes pas la professeure ?"
-    - "Pourquoi tu cala pas les conseils avis\xE9s de tes professeurs ?"
-    - "Pourquoi tu n\u2019\xE9coutes pas les conseils avis\xE9s de tes professeurs
-      ?"
-    - Pourquoi tu cala pas la professeure ?
-    - "Pour quels motifs tu cala pas les conseils avis\xE9s de ta professeure ?"
+    - "<color=#00FFFF>Pourquoi tu cala pas la ma\xEEtresse ?</color>"
+    - "<i>Pour quels motifs ne pr\xEAtez- vous pas attention aux conseils avis\xE9s
+      de vos professeurs ?</i>"
+    - "<b>Pourquoi tu n\u2019\xE9coutes pas la professeure ?</b>"
+    - "<color=#00FFFF>Pourquoi tu cala pas les</color> <i>conseils avis\xE9s de tes
+      professeurs ?</i>"
+    - "<b>Pourquoi tu n\u2019\xE9coutes pas</b> <i>les conseils avis\xE9s de tes
+      professeurs ?</i>"
+    - <color=#00FFFF>Pourquoi tu cala</color> <b>pas la professeure ?</b>
+    - "<i>Pour quels motifs <color=#00FFFF>tu cala pas</color> <i>les conseils avis\xE9s</i>
+      <b>de ta professeure ?</b>"
     - "Pourquoi t\u2019\xE9coutes jamais la ma\xEEtresse ?\r\n\r"
     answer: {fileID: 11400000, guid: 7667b5ba64beb6b4ebad4cf957669178, type: 2}
   - variantes:
-    - Tu trouves les darons ils sont grave chiant ?
-    - "Trouvez- vous la compagnie des adultes d\u2019une profonde lassitude ?"
-    - Tu trouves que les parents sont ennuyeux ?
-    - La compagnie des darons vous lasse-t-elle ?
-    - "Tu trouves les parents d\u2019une profonde lassitude ? "
-    - Tu trouves que les parents sont  grave chiant nan ?
-    - 'Tu trouves la compagnie du daron
-
-      fort ennuyeuse ?'
+    - <color=#00FFFF>Tu trouves les darons ils sont grave chiant ?</color>
+    - "<i>Trouvez- vous la compagnie des adultes d\u2019une profonde lassitude ?</i>"
+    - <b>Tu trouves que les parents sont ennuyeux ?</b>
+    - <i>La compagnie</i> <color=#00FFFF>des darons</color> <i>vous lasse-t-elle
+      ?</i>
+    - "<b>Tu trouves les parents</b> <i>d\u2019une profonde lassitude ?</i>"
+    - <b>Tu trouves que les parents sont</b> <color=#00FFFF>grave chiant nan ?</color>
+    - <b>Tu trouves <i>la compagnie</i> <color=#00FFFF>du daron</color>fort <b>ennuyeuse
+      ?</b>
     - Tu trouves les parents nul ?
     answer: {fileID: 11400000, guid: 334e6c4bcdfae4b47a785c323cc93318, type: 2}
   - variantes:
-    - "Comment on reste vl\xE0 styl\xE9 comme toi genre ?"
-    - Par quel mysticisme ne daignez-vous jamais grandir ?
-    - Comment on fait pour rester un enfant ?
-    - "Par quel mysticisme on reste vl\xE0 styl\xE9 comme toi genre ?"
-    - Par quel mysticisme on reste un enfant ?
-    - "Comment on fait pour rest\xE9 vl\xE0 styl\xE9 comme toi genre ?"
-    - Par quel mysticisme on reste un enfant comme toi genre ?
+    - "<color=#00FFFF>Comment on reste vl\xE0 styl\xE9 comme toi genre ?</color>"
+    - <i>Par quel mysticisme ne daignez-vous jamais grandir ?</i>
+    - <b>Comment on fait pour rester un enfant ?</b>
+    - "<i>Par quel mysticisme</i> <color=#00FFFF>on reste vl\xE0 styl\xE9 comme toi
+      genre ?</color>"
+    - <i>Par quel mysticisme</i> <b>on reste un enfant ?</b>
+    - "<b>Comment on fait pour</b> <color=#00FFFF>rest\xE9 vl\xE0 styl\xE9 comme
+      toi genre ?</color>"
+    - <i>Par quel mysticisme</i> <b>on reste un enfant</b> <color=#00FFFF>comme toi
+      genre ?</color>
     - Comment on reste cool ?
     answer: {fileID: 11400000, guid: ffc09a1930c7bf54896dae2805301533, type: 2}
   textSpeed: 0.05
