@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd35492f202e48642a9c4326d26a1389, type: 3}
+  m_Name: Golem3
+  m_EditorClassIdentifier: 
+  lines:
+  - "La ma\xEEtresse veut bien faire, mais elle se trompe. Rien de ce qu\u2019elle
+    t\u2019apprend n\u2019est essentiel pour survivre dans le monde adulte.\r\n\r\n\xCAtre
+    mature et responsable \xE0 bien plus de valeur dans notre monde que d\u2019\xEAtre
+    parfait. Il faut suivre le courant, pas se d\xE9marquer.\r"

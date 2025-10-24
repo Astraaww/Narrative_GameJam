@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Prof
+  m_EditorClassIdentifier: Assembly-CSharp::DataPerso
+  anwserTheQuestion: 
+  questions:
+  - variantes:
+    - "Oah t\u2019aveugle! Tu veux pas t\u2019\xE9teindre un peu genre ?"
+    - "Pourquoi luisez-vous de telle mani\xE8re ?"
+    - Pourquoi est-ce que vous brillez ?
+    - "Oah vous aveuglez. Pourquoi luisez-vous comme \xE7a genre ?"
+    - "Pourquoi est-ce que vous luisez de telle mani\xE8re ?"
+    - Oah. Pourquoi vous brillez ?
+    - Oah vous luisez tant genre. Pourquoi vous brillez ?
+    - 'Pourquoi tu brille ?
+
+'
+    answer: {fileID: 11400000, guid: 6f0929ad28ded5f429c027380eb76cb8, type: 2}
+  - variantes:
+    - "Pourquoi j\u2019dois apprendre tes trucs genre ?"
+    - "Pour quels motifs devrions-nous nous astreindre \xE0 apprendre des le\xE7ons
+      ?"
+    - "Pourquoi je devrais apprendre mes le\xE7ons ?"
+    - Pour quels motifs devrions-nous apprendre tes trucs genre ?
+    - "Pourquoi je devrais m\u2019astreindre \xE0 apprendre mes le\xE7ons ?\r\n"
+    - "Eh\u2026 Pourquoi j\u2019dois apprendre mes le\xE7ons ?\r\n"
+    - "Pourquoi j\u2019dois m\u2019astreindre \xE0 apprendre mes le\xE7ons ?"
+    - "Pourquoi y\u2019a des le\xE7ons \xE0 apprendre ?"
+    answer: {fileID: 11400000, guid: 3d09a44fa47591142b26771a22b4ef75, type: 2}
+  - variantes:
+    - "Pourquoi j\u2019devrais t'\xE9couter toi et pas mes darons ?"
+    - "Pourquoi devrais-je apporter plus de cr\xE9dits \xE0 vos paroles qu'\xE0 celles
+      de mes g\xE9niteurs ?"
+    - "Pourquoi je devrais vous \xE9couter plus que mes parents ?"
+    - "Pourquoi devrais-je apporter plus de cr\xE9dits \xE0 vos paroles qu'\xE0 s\u2019que
+      dises mes darons ?"
+    - "Pourquoi devrais-je apporter plus de cr\xE9dits \xE0 ce que vous dites ?"
+    - "Pourquoi je devrais vous \xE9couter plus que mon daron ?"
+    - "Pourquoi je devrais vous donner plus de cr\xE9dits qu\u2019a mes darons ?"
+    - "Pourquoi \xE9couter toi et pas mes parents ? "
+    answer: {fileID: 11400000, guid: 421385f64b5dbdf448483a3e25715e06, type: 2}
+  - variantes:
+    - "T\u2019es pas ok avec mon pote ?"
+    - "Vous n'\xEAtes point en accord avec mon camarade ?"
+    - "Tu n'es pas d\u2019accord avec mon ami ?"
+    - "Vous n'\xEAtes point en accord avec mon pote ? "
+    - "Vous n'\xEAtes pas d\u2019accord avec mon camarade ?"
+    - "Tu n'es pas d\u2019accord avec mon pote ?"
+    - "Vous n'\xEAtes point ok avec mon ami ?"
+    - "Tu n'est pas d\u2019accord avec mon ami non plus ?"
+    answer: {fileID: 11400000, guid: 4977572086398784e8f27156dee6f3af, type: 2}
+  - variantes:
+    - "On fait comment pour\u2019etes tarpin lumineux ?"
+    - "De quel miracle usez vous afin d'\xE9mettre tant de lueur divine ?"
+    - Comment on fait pour briller comme toi ?
+    - "De quel miracle usez vous pour\u2019etes tarpin lumineux genre ?"
+    - "Comment on fait pour \xE9mettre tant de lueur divine ?"
+    - "Comment on fait pour \xEAtre  tarpin lumineux ?"
+    - "On fait comment pour briller d\u2019une lueur tarpin divine ?"
+    - Comment on brille ?
+    answer: {fileID: 11400000, guid: 738aa73fc09275644bfff019475ca095, type: 2}
+  textSpeed: 0.1

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Parent
+  m_EditorClassIdentifier: Assembly-CSharp::DataPerso
+  anwserTheQuestion: 
+  questions:
+  - variantes:
+    - "Oh s\u2019est long ta phrase, sa va j\u2019ai capt\xE9."
+    - "Voil\xE0 une \xE9num\xE9ration qui ne manque pas de s\xE9rieux."
+    - Vous parlez toujours avec des phrases aussi longues ?
+    - "Oh s\u2019est long votre \xE9num\xE9ration, sa va j\u2019ai capt\xE9."
+    - "Vous parlez toujours avec des \xE9num\xE9rations si insipides ?"
+    - "Oh s\u2019est long ta phrase, tu parles toujours comme \xE7a ?"
+    - "Oh s\u2019est long votre \xE9num\xE9ration, vous parlez toujours comme \xE7a
+      ?"
+    - "Tu fais des phrases longues et s\xE9rieuses\u2026"
+    answer: {fileID: 11400000, guid: acd9db92926ef074ea0b1ad6d37ed686, type: 2}
+  - variantes:
+    - "Qu\u2019est ce j\u2019en est \xE0 faire de d\u2019venir adulte ?"
+    - "Quels motifs pourraient me pousser \xE0 suivre vos \xE9lucubrations ?"
+    - Pourquoi devenir un adulte et ne pas rester enfant ?
+    - "Qu\u2019est ce j\u2019en est \xE0 faire  de suivre vos \xE9lucubrations ?"
+    - "Quels motifs pourraient me pousser \xE0 ne pas rester enfant ?"
+    - "Qu\u2019est ce j\u2019en ai \xE0 faire de devenir un adulte et ne pas rester
+      enfant ?"
+    - "Qu\u2019est ce j\u2019en est \xE0 faire de devenir un adulte. Ne puis-je simplement
+      pas rester un \xE9ternel bambin ?\r"
+    - Pourquoi je devrais devenir adulte ?
+    answer: {fileID: 11400000, guid: 770dfe94f6a07424c9e1917f89f21278, type: 2}
+  - variantes:
+    - "Et js\u2019uppose que tu veux que jt\u2019\xE9couter toi plut\xF4t qu\u2019la
+      ma\xEEtresse."
+    - "Si vos conseils, je n\u2019en doute avis\xE9s, ne sied \xE0 la vision de mes
+      distingu\xE9s professeurs, qui dois-je \xE9couter ?"
+    - "Mes profs ne m\u2019ont pas dit la m\xEAme chose. Comment savoir qui a raison
+      ?"
+    - "Et js\u2019uppose que tu veux que j\u2019\xE9coute ton avis, je n\u2019en
+      doute avis\xE9, plut\xF4t qu\u2019mes distingu\xE9s professeurs ?"
+    - "Et si tes conseils ne si\xE9ent \xE0 la vision de mes distingu\xE9s professeurs,
+      qui j'\xE9coute ? "
+    - "Mes profs ne m\u2019ont pas dit la m\xEAme chose. Et js\u2019uppose que tu
+      veux que jt\u2019\xE9couter toi."
+    - "Mes profs, dont les conseils sont plus qu'avis\xE9s, ne m\u2019ont pas dit
+      la m\xEAme chose.  Mais js\u2019uppose que tu veux que jt\u2019\xE9couter toi."
+    - "Et si la ma\xEEtresse est pas d\u2019accord avec toi je dois \xE9couter qui
+      ?"
+    answer: {fileID: 11400000, guid: 145c68ce71d62fa4c9d86d0f6785dba8, type: 2}
+  - variantes:
+    - "Euh\u2026 ouai non \xE7a \xE0 l\u2019air nul ton truc. J\u2019pr\xE9f\xE8re
+      rester avec mes potes."
+    - "Cela est peu vendeur, je dois vous l'avouer. Dois-je r\xE9ellement m'astreindre
+      \xE0 r\xE9aliser ces besognes ?"
+    - "\xC7a me semble beaucoup. Je devrais peut-\xEAtre \xE9couter mes amis et rester
+      jeune. "
+    - "Euh\u2026 ouai non, Cela est peu vendeur. Dois-je r\xE9ellement m'astreindre
+      \xE0 r\xE9aliser ces trucs ? J\u2019pr\xE9f\xE8re rester avec mes potes."
+    - "Cela est peu vendeur, je dois vous l'avouer. Je devrais peut-\xEAtre \xE9couter
+      mes amis et rester jeune. "
+    - "Euh\u2026 ouai non, Je devrais peut-\xEAtre \xE9couter mes potes et rester
+      jeune. "
+    - "Cela est peu vendeur, \xE7a \xE0 l\u2019air nul. Je devrais peut-\xEAtre \xE9couter
+      mes amis et pas faire tes trucs."
+    - "C\u2019est beaucoup trop! Les autres enfants avaient peut-\xEAtre raison,
+      grandir c\u2019est nul\u2026"
+    answer: {fileID: 11400000, guid: 596006c8e38e60c41b2183371332b72e, type: 2}
+  - variantes:
+    - "Et j\u2019dois faire tout \xE7a quand ?"
+    - "Quand devrais-je m'atteler \xE0 ces t\xE2ches hercul\xE9ennes ?"
+    - "Quand est-ce que je devrais m\u2019y mettre ?"
+    - "Quand devrais-je m'atteler \xE0  tout \xE7a l\xE0 ?"
+    - "Quand est-ce que je devrais me mettre \xE0 ces t\xE2ches hercul\xE9ennes ?"
+    - "Quand est-ce que  j\u2019dois faire  toutes ces t\xE2ches l\xE0 ?"
+    - "Quand est-ce que j\u2019dois faire tous ces t\xE2ches hercul\xE9ennes ?"
+    - "C\u2019est quand que j\u2019aurais tout \xE7a \xE0 faire ?"
+    answer: {fileID: 11400000, guid: ee2c6acdb274b124eb10d214b52e952b, type: 2}
+  textSpeed: 0.2
