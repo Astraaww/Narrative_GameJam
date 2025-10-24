@@ -7,11 +7,19 @@ public class ChoiceManager : MonoBehaviour
     public int stat1, stat2 , stat3;
     public GameObject[] boutonsQuestion;
 
-
+    public int temporaryStat;
     [SerializeField] DataPerso speakingWith;
 
 
-    public void SetPersonSpeaking(DataPerso person) { speakingWith = person; }
+    public void SetPersonSpeaking(DataPerso person) { speakingWith = person; temporaryStat = speakingWith.whatStyle; }
+
+    public void AddTemporaryStats()
+    {
+        if (temporaryStat == 1) { stat1 += 2; }
+        if (temporaryStat == 2) { stat2 += 2; }
+        if (temporaryStat == 3) { stat3 += 2; }
+    }
+
 
     public void ChangeQuestion()
     {   
@@ -27,6 +35,14 @@ public class ChoiceManager : MonoBehaviour
             colonne++;
         }
     }
+
+    public void ReverseTemporary()
+    {
+        if (temporaryStat == 1) { stat1 -= 2; }
+        if (temporaryStat == 2) { stat2 -= 2; }
+        if (temporaryStat == 3) { stat3 -= 2; }
+    }
+
 
     int GetTheQuestionVar(bool style1, bool style2, bool style3)
     {

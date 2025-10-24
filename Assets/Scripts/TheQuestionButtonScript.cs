@@ -5,6 +5,8 @@ public class TheQuestionButtonScript : MonoBehaviour
 {
     public Question data;
 
+    [SerializeField] int whatStyle;
+
     ChoiceManager choiceManager;
     DialogManager dialogManager;
 
@@ -24,6 +26,7 @@ public class TheQuestionButtonScript : MonoBehaviour
     public void OnClick()
     {
         dialogManager.StartDialog(data.answer);
+        choiceManager.AddTemporaryStats();
     }
 
     int GetTheVariante()

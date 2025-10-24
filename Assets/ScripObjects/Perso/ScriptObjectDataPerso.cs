@@ -6,4 +6,5 @@ public class DataPerso : ScriptableObject
     public AnswerText anwserTheQuestion;
     public Question[] questions;
     public float textSpeed;
+    public int whatStyle;
 }
