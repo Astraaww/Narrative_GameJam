@@ -1,18 +1,58 @@
+using TMPro;
 using UnityEngine;
 
 public class TheQuestionButtonScript : MonoBehaviour
 {
-    [SerializeField] Question data;
+    public Question data;
 
     ChoiceManager choiceManager;
+    DialogManager dialogManager;
 
     void Start()
     {
         choiceManager = FindAnyObjectByType<ChoiceManager>();
+        dialogManager = FindAnyObjectByType<DialogManager>();
+    }
+
+    public void SetValue(AnswerText réponse)
+    {
+        GetComponentInChildren<TextMeshProUGUI>().text = data.variantes[GetTheVariante()];
+        data.answer = réponse;
     }
 
 
+    public void OnClick()
+    {
+        dialogManager.StartDialog(data.answer);
+    }
 
+    int GetTheVariante()
+    {
+        if (choiceManager.stat1 > 4 && choiceManager.stat2! > 4 && choiceManager.stat3! > 4)
+        { return 0; }
 
+        if (choiceManager.stat1! > 4 && choiceManager.stat2 > 4 && choiceManager.stat3! > 4)
+        { return 1; }
+
+        if (choiceManager.stat1! > 4 && choiceManager.stat2! > 4 && choiceManager.stat3 > 4)
+        { return 2; }
+
+        if (choiceManager.stat1 > 4 && choiceManager.stat2 > 4 && choiceManager.stat3! > 4)
+        { return 3; }
+
+        if (choiceManager.stat1 > 4 && choiceManager.stat2! > 4 && choiceManager.stat3 > 4)
+        { return 4; }
+
+        if (choiceManager.stat1! > 4 && choiceManager.stat2 > 4 && choiceManager.stat3 > 4)
+        { return 5; }
+
+        if (choiceManager.stat1 > 4 && choiceManager.stat2 > 4 && choiceManager.stat3 > 4)
+        { return 6; }
+
+        if (choiceManager.stat1! > 4 && choiceManager.stat2! > 4 && choiceManager.stat3! > 4)
+        { return 7; }
+
+        return 69;
+    }
 
 }
