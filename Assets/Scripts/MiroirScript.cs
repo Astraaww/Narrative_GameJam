@@ -1,5 +1,7 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MiroirScript : MonoBehaviour
 {
@@ -9,6 +11,10 @@ public class MiroirScript : MonoBehaviour
     Sprite useSprite;
     [SerializeField] Question TheLastQuest;
     [SerializeField] TextMeshProUGUI textBox;
+    [SerializeField] GameObject image;
+    bool hastimer;
+    float time;
+    int indexTimer = 0;
 
     void Start()
     {
@@ -23,6 +29,11 @@ public class MiroirScript : MonoBehaviour
 
     }
 
+    public void SetTimer()
+    {
+        hastimer = true;
+    }
+
     bool CanContinue()
     {
         if (manager.creditDialogue <= 0)
@@ -31,7 +42,27 @@ public class MiroirScript : MonoBehaviour
         return false;
     }
 
+    private void Update()
+    {
+        if (hastimer && indexTimer == 0) { 
+            if (time < 5) { time += Time.deltaTime; } 
+            else { 
+                image.GetComponent<Image>().sprite = useSprite;
+                image.SetActive(true);
+                time = 0;
+                indexTimer++;
+            } 
+        }
 
+        if (hastimer && indexTimer == 1)
+        {
+            if (time < 5) { time += Time.deltaTime; }
+            else
+            {
+                SceneManager.LoadScene(1);
+            }
+        }
+    }
 
 
 

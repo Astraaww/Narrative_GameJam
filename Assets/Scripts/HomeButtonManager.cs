@@ -1,7 +1,5 @@
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using TMPro;
 using UnityEngine.SceneManagement; 
 
 public class HomeButtonManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
