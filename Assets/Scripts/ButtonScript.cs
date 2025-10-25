@@ -5,6 +5,7 @@ public class ButtonScript : MonoBehaviour
 {
     DialogManager manager;
     ChoiceManager choiceManager;
+    DialogueCounterManager counterManager;
 
     [Header("Character")]
     [SerializeField] private bool CharaButton;
@@ -20,6 +21,7 @@ public class ButtonScript : MonoBehaviour
     {
         manager = FindAnyObjectByType<DialogManager>();
         choiceManager = FindAnyObjectByType<ChoiceManager>();
+        counterManager = FindAnyObjectByType<DialogueCounterManager>();
     }
 
     public void SetRefQuestion(AnswerText dialog, int style)
@@ -32,15 +34,25 @@ public class ButtonScript : MonoBehaviour
     {
         if (CharaButton)
         {
-            choiceManager.SetPersonSpeaking(perso);
-            manager.SetSpeed(perso.textSpeed);
+            if (counterManager.creditDialogue > 0)
+            {
+                choiceManager.SetPersonSpeaking(perso);
+                manager.SetSpeed(perso.textSpeed);
+            }
+            else { }//gneuh gneuh tu peux pas pcq pas de credit bouuuuh
         }
         if (QuestionButton) 
         {
-            AddPermaStat();
-            manager.StartDialog(réponse);
-            hasClicked = true; 
-            gameObject.GetComponent<Button>().enabled = !hasClicked;
+            if (counterManager.creditDialogue > 0)
+            {
+                AddPermaStat();
+                manager.StartDialog(réponse);
+                hasClicked = true;
+                gameObject.GetComponent<Button>().enabled = !hasClicked;
+                gameObject.SetActive(!hasClicked);
+                counterManager.RemoveOneCredit();
+            }
+            else { } //gneuh gneuh tu peux pas
         }
     }
 

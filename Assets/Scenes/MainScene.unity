@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 185359728}
   - component: {fileID: 185359727}
   - component: {fileID: 185359726}
+  - component: {fileID: 185359730}
   - component: {fileID: 185359729}
   m_Layer: 0
   m_Name: Manager
@@ -178,6 +179,7 @@ MonoBehaviour:
   - {fileID: 951892131}
   - {fileID: 648494691}
   - {fileID: 489045596}
+  temporaryStat: 0
   speakingWith: {fileID: 0}
 --- !u!4 &185359728
 Transform:
@@ -206,6 +208,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26c37720baaf5ca4788852aa9538825f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &185359730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185359725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0ac147971c19648be02aec522f6f5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  creditDialogue: 10
+  dialoguePanel: {fileID: 1877697203}
+  counterTextBox: {fileID: 1584021793}
 --- !u!1 &187358825
 GameObject:
   m_ObjectHideFlags: 0
@@ -2784,7 +2801,7 @@ GameObject:
   - component: {fileID: 963997127}
   - component: {fileID: 963997130}
   m_Layer: 5
-  m_Name: Button (6)
+  m_Name: Button Question
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2915,6 +2932,7 @@ MonoBehaviour:
     - 
     - 
     answer: {fileID: 0}
+  whatStyle: 0
 --- !u!1 &985303940
 GameObject:
   m_ObjectHideFlags: 0
@@ -3534,6 +3552,7 @@ GameObject:
   - component: {fileID: 1246223502}
   - component: {fileID: 1246223501}
   - component: {fileID: 1246223500}
+  - component: {fileID: 1246223503}
   m_Layer: 5
   m_Name: Door
   m_TagString: Untagged
@@ -3603,7 +3622,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1246223501}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1246223503}
+        m_TargetAssemblyTypeName: MiroirScript, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1246223501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3642,6 +3673,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1246223498}
   m_CullTransparentMesh: 1
+--- !u!114 &1246223503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246223498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eef606e676ce94e8c83285495be65d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1268178153
 GameObject:
   m_ObjectHideFlags: 0
@@ -4079,7 +4122,6 @@ GameObject:
   - component: {fileID: 1584021792}
   - component: {fileID: 1584021794}
   - component: {fileID: 1584021793}
-  - component: {fileID: 1584021795}
   m_Layer: 5
   m_Name: Dialogue counter
   m_TagString: Untagged
@@ -4205,20 +4247,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584021791}
   m_CullTransparentMesh: 1
---- !u!114 &1584021795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584021791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e0ac147971c19648be02aec522f6f5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 1877697203}
-  counter: {fileID: 1584021793}
 --- !u!1 &1623158544
 GameObject:
   m_ObjectHideFlags: 0
@@ -4503,7 +4531,7 @@ GameObject:
   - component: {fileID: 1668066116}
   - component: {fileID: 1668066117}
   m_Layer: 5
-  m_Name: "Panel  R\xE9ponses"
+  m_Name: Panel  Fin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

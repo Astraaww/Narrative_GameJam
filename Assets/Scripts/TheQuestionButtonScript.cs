@@ -9,6 +9,7 @@ public class TheQuestionButtonScript : MonoBehaviour
 
     ChoiceManager choiceManager;
     DialogManager dialogManager;
+    DialogueCounterManager counterManager;
 
     void Start()
     {
@@ -27,6 +28,7 @@ public class TheQuestionButtonScript : MonoBehaviour
     {
         dialogManager.StartDialog(data.answer);
         choiceManager.AddTemporaryStats();
+        counterManager.RemoveOneCredit();
     }
 
     int GetTheVariante()
