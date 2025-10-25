@@ -7,6 +7,7 @@ public class DialogueCounterManager : MonoBehaviour
 
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] TextMeshProUGUI counterTextBox;
+    [SerializeField] GameObject choicePanel;
 
     void Start()
     {
@@ -25,9 +26,14 @@ public class DialogueCounterManager : MonoBehaviour
         {
             counterTextBox.rectTransform.anchoredPosition = new Vector3(-778f, 0f, 0f);
         }
-        else
+        else if(choicePanel.activeSelf)
         {
             counterTextBox.rectTransform.anchoredPosition = new Vector3(-809f, 450f, 0f);
         }
+        else
+        {
+            counterTextBox.rectTransform.anchoredPosition = new Vector3(10000f, 100000f, 0f);
+        }
+
     }
 }

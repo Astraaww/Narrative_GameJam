@@ -223,6 +223,7 @@ MonoBehaviour:
   creditDialogue: 10
   dialoguePanel: {fileID: 1877697203}
   counterTextBox: {fileID: 1584021793}
+  choicePanel: {fileID: 423025616}
 --- !u!1 &187358825
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +241,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &187358826
 RectTransform:
   m_ObjectHideFlags: 0
@@ -287,8 +288,8 @@ MonoBehaviour:
     at, ultrices eu velit. Curabitur dapibus dignissim tellus, eu mattis felis vestibulum
     eu. Donec quis sollicitudin metus.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
+  m_sharedMaterial: {fileID: -95070332056827303, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -537,7 +538,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 959.78906, y: -377.2373}
+  m_AnchoredPosition: {x: 960.09766, y: -376.89026}
   m_SizeDelta: {x: 900, y: 96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &270769066
@@ -1021,7 +1022,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &423025618
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1189,7 +1190,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 959.78906, y: -861.2373}
+  m_AnchoredPosition: {x: 960.09766, y: -860.89026}
   m_SizeDelta: {x: 900, y: 96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &489045598
@@ -1578,7 +1579,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &608471077
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1675,7 +1676,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 959.78906, y: -740.2373}
+  m_AnchoredPosition: {x: 960.09766, y: -739.89026}
   m_SizeDelta: {x: 900, y: 96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &648494693
@@ -1861,8 +1862,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xE7a veut dire quoi \xEAtre grand ? + variantes"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
+  m_sharedMaterial: {fileID: -95070332056827303, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2185,7 +2186,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 959.78906, y: -982.2373}
+  m_AnchoredPosition: {x: 960.09766, y: -981.89026}
   m_SizeDelta: {x: 900, y: 96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &910638465
@@ -2675,7 +2676,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 959.78906, y: -619.2373}
+  m_AnchoredPosition: {x: 960.09766, y: -618.89026}
   m_SizeDelta: {x: 900, y: 96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &951892133
@@ -3327,14 +3328,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: Main Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
+  m_sharedMaterial: {fileID: -95070332056827303, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4288124823
   m_fontColor: {r: 0.59119487, g: 0.59119487, b: 0.59119487, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -3463,8 +3464,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
+  m_sharedMaterial: {fileID: -95070332056827303, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3866,8 +3867,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
+  m_sharedMaterial: {fileID: -95070332056827303, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4183,8 +4184,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Dialogues: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
+  m_sharedMaterial: {fileID: -95070332056827303, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4215,8 +4216,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -4319,8 +4320,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lorem ipsum dolor sit amet
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
+  m_sharedMaterial: {fileID: -95070332056827303, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4456,8 +4457,8 @@ MonoBehaviour:
   m_text: Nam vitae aliquam nunc. Morbi interdum sapien ac ornare hendrerit. Donec
     varius sapien at blandit pharetra.  Morbi interdum sapien ac ornare hendrerit.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
+  m_sharedMaterial: {fileID: -95070332056827303, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5026,7 +5027,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 959.78906, y: -498.2373}
+  m_AnchoredPosition: {x: 960.09766, y: -497.89026}
   m_SizeDelta: {x: 900, y: 96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1946794103
@@ -5273,8 +5274,8 @@ MonoBehaviour:
   m_text: 'Nam vitae aliquam nunc. Morbi interdum sapien ac ornare hendrerit. Donec
     varius sapien at blandit pharetra. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
+  m_sharedMaterial: {fileID: -95070332056827303, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5414,8 +5415,8 @@ MonoBehaviour:
     at, ultrices eu velit. Curabitur dapibus dignissim tellus, eu mattis felis vestibulum
     eu. Donec quis sollicitudin metus.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
+  m_sharedMaterial: {fileID: -95070332056827303, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5629,8 +5630,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lorem ipsum dolor sit amet.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
+  m_sharedMaterial: {fileID: -95070332056827303, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
