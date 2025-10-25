@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c2a97a4e7b008145bc0f26dc24e783d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textComponent: {fileID: 187358827}
+  textComponent: {fileID: 2066729012}
   texte: {fileID: 0}
   textSpeed: 0
   isActivated: 0
@@ -647,6 +647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84b48ba1f8214cb4cb2e77269b87c4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otherButton: {fileID: 0}
   CharaButton: 0
   perso: {fileID: 0}
   QuestionButton: 1
@@ -1022,7 +1023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!222 &423025618
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1299,6 +1300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84b48ba1f8214cb4cb2e77269b87c4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otherButton: {fileID: 0}
   CharaButton: 0
   perso: {fileID: 0}
   QuestionButton: 1
@@ -1461,6 +1463,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1510880168}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 554116024}
         m_TargetAssemblyTypeName: ButtonScript, Assembly-CSharp
         m_MethodName: OnClick
@@ -1472,18 +1486,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1877697203}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 423025616}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -1559,6 +1561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84b48ba1f8214cb4cb2e77269b87c4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otherButton: {fileID: 963997130}
   CharaButton: 1
   perso: {fileID: 11400000, guid: 9354eb07ecf655446a865c278eb37c58, type: 2}
   QuestionButton: 0
@@ -1785,6 +1788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84b48ba1f8214cb4cb2e77269b87c4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otherButton: {fileID: 0}
   CharaButton: 0
   perso: {fileID: 0}
   QuestionButton: 0
@@ -1800,6 +1804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84b48ba1f8214cb4cb2e77269b87c4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otherButton: {fileID: 0}
   CharaButton: 0
   perso: {fileID: 0}
   QuestionButton: 1
@@ -2538,6 +2543,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1510880168}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 935921973}
         m_TargetAssemblyTypeName: ButtonScript, Assembly-CSharp
         m_MethodName: OnClick
@@ -2549,18 +2566,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1877697203}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 423025616}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -2636,8 +2641,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84b48ba1f8214cb4cb2e77269b87c4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otherButton: {fileID: 963997130}
   CharaButton: 1
-  perso: {fileID: 0}
+  perso: {fileID: 11400000, guid: 64b0a93bc7fafba4e81791d93459372b, type: 2}
   QuestionButton: 0
 --- !u!1 &951892131
 GameObject:
@@ -2785,6 +2791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84b48ba1f8214cb4cb2e77269b87c4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otherButton: {fileID: 0}
   CharaButton: 0
   perso: {fileID: 0}
   QuestionButton: 1
@@ -2871,7 +2878,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 963997128}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 963997130}
+        m_TargetAssemblyTypeName: TheQuestionButtonScript, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1877697203}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1510880168}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &963997128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2924,16 +2967,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     variantes:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - kabbomm
+    - "j'ai trop mal \xE9ccrit"
+    - glbskf
+    - oui oui baguette
+    - "qui dit chocolati** s\xE9rieux ce mot est horrible"
+    - lisez pas
+    - sinon je me flingue
+    - et vouis voulez pas perdr votre codeur
     answer: {fileID: 0}
   whatStyle: 0
+  choiceManager: {fileID: 185359727}
 --- !u!1 &985303940
 GameObject:
   m_ObjectHideFlags: 0
@@ -3018,6 +3062,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1510880168}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 985303945}
         m_TargetAssemblyTypeName: ButtonScript, Assembly-CSharp
         m_MethodName: OnClick
@@ -3029,18 +3085,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1877697203}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 423025616}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -3116,8 +3160,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84b48ba1f8214cb4cb2e77269b87c4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otherButton: {fileID: 963997130}
   CharaButton: 1
-  perso: {fileID: 0}
+  perso: {fileID: 11400000, guid: 1ce9eaf4103feef4195f07c7a66fd9df, type: 2}
   QuestionButton: 0
 --- !u!1 &1032638904
 GameObject:
@@ -5136,6 +5181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84b48ba1f8214cb4cb2e77269b87c4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otherButton: {fileID: 0}
   CharaButton: 0
   perso: {fileID: 0}
   QuestionButton: 1

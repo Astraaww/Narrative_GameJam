@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Ami
   m_EditorClassIdentifier: Assembly-CSharp::DataPerso
-  anwserTheQuestion: {fileID: 0}
+  anwserTheQuestion: {fileID: 11400000, guid: 87fe9df23421d9a44868f69063f94c02, type: 2}
   questions:
   - variantes:
     - "<color=#00FFFF>Pourquoi on\u2019es pas comme les aut\u2019 ?</color>\r\n\r"
@@ -82,3 +82,4 @@ MonoBehaviour:
     - Comment on reste cool ?
     answer: {fileID: 11400000, guid: ffc09a1930c7bf54896dae2805301533, type: 2}
   textSpeed: 0.05
+  whatStyle: 1

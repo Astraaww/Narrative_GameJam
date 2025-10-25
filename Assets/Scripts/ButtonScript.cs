@@ -6,6 +6,7 @@ public class ButtonScript : MonoBehaviour
     DialogManager manager;
     ChoiceManager choiceManager;
     DialogueCounterManager counterManager;
+    [SerializeField] TheQuestionButtonScript otherButton;
 
     [Header("Character")]
     [SerializeField] private bool CharaButton;
@@ -38,6 +39,7 @@ public class ButtonScript : MonoBehaviour
             {
                 choiceManager.SetPersonSpeaking(perso);
                 manager.SetSpeed(perso.textSpeed);
+                otherButton.SetValue(perso.anwserTheQuestion);
             }
             else { }//gneuh gneuh tu peux pas pcq pas de credit bouuuuh
         }

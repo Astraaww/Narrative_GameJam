@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Prof
   m_EditorClassIdentifier: Assembly-CSharp::DataPerso
-  anwserTheQuestion: {fileID: 0}
+  anwserTheQuestion: {fileID: 11400000, guid: e5b5cfaf203705445893bb84773dae6d, type: 2}
   questions:
   - variantes:
     - "<color=#00FFFF>Oah t\u2019aveugle! Tu veux pas t\u2019\xE9teindre un peu genre
@@ -83,3 +83,4 @@ MonoBehaviour:
     - Comment on brille ?
     answer: {fileID: 11400000, guid: 738aa73fc09275644bfff019475ca095, type: 2}
   textSpeed: 0.1
+  whatStyle: 2

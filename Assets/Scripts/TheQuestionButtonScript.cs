@@ -7,7 +7,7 @@ public class TheQuestionButtonScript : MonoBehaviour
 
     [SerializeField] int whatStyle;
 
-    ChoiceManager choiceManager;
+    [SerializeField] ChoiceManager choiceManager;
     DialogManager dialogManager;
     DialogueCounterManager counterManager;
 
@@ -15,6 +15,7 @@ public class TheQuestionButtonScript : MonoBehaviour
     {
         choiceManager = FindAnyObjectByType<ChoiceManager>();
         dialogManager = FindAnyObjectByType<DialogManager>();
+        counterManager = FindAnyObjectByType<DialogueCounterManager>();
     }
 
     public void SetValue(AnswerText réponse)
@@ -33,30 +34,31 @@ public class TheQuestionButtonScript : MonoBehaviour
 
     int GetTheVariante()
     {
-        if (choiceManager.stat1 > 2 && choiceManager.stat2! > 2 && choiceManager.stat3! > 2)
+        if (choiceManager.stat1 >= 2 && choiceManager.stat2 < 2 && choiceManager.stat3 < 2)
         { return 0; }
 
-        if (choiceManager.stat1! > 2 && choiceManager.stat2 > 2 && choiceManager.stat3! > 2)
+        if (choiceManager.stat1 < 2 && choiceManager.stat2 >= 2 && choiceManager.stat3 < 2)
         { return 1; }
 
-        if (choiceManager.stat1! > 2 && choiceManager.stat2! > 2 && choiceManager.stat3 > 2)
+        if (choiceManager.stat1 < 2 && choiceManager.stat2 < 2 && choiceManager.stat3 >= 2)
         { return 2; }
 
-        if (choiceManager.stat1 > 2 && choiceManager.stat2 > 2 && choiceManager.stat3! > 2)
+        if (choiceManager.stat1 >= 2 && choiceManager.stat2 >= 2 && choiceManager.stat3 < 2)
         { return 3; }
 
-        if (choiceManager.stat1 > 2 && choiceManager.stat2! > 2 && choiceManager.stat3 > 2)
+        if (choiceManager.stat1 >= 2 && choiceManager.stat2 < 2 && choiceManager.stat3 >= 2)
         { return 4; }
 
-        if (choiceManager.stat1! > 2 && choiceManager.stat2 > 2 && choiceManager.stat3 > 2)
+        if (choiceManager.stat1 < 2 && choiceManager.stat2 >= 2 && choiceManager.stat3 >= 2)
         { return 5; }
 
-        if (choiceManager.stat1 > 2 && choiceManager.stat2 > 2 && choiceManager.stat3 > 2)
+        if (choiceManager.stat1 >= 2 && choiceManager.stat2 >= 2 && choiceManager.stat3 >= 2)
         { return 6; }
 
-        if (choiceManager.stat1! > 2 && choiceManager.stat2! > 2 && choiceManager.stat3! > 2)
+        if (choiceManager.stat1 < 2 && choiceManager.stat2 < 2 && choiceManager.stat3 < 2)
         { return 7; }
 
+        Debug.Log("ptdr ça a pas marché");
         return 69;
     }
 
