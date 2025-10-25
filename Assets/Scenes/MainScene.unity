@@ -1559,7 +1559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharaButton: 1
-  perso: {fileID: 11400000, guid: 76e2fbc713c8b2c4aaa15dfa99305535, type: 2}
+  perso: {fileID: 11400000, guid: 9354eb07ecf655446a865c278eb37c58, type: 2}
   QuestionButton: 0
 --- !u!1 &608471076
 GameObject:
@@ -2636,7 +2636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharaButton: 1
-  perso: {fileID: 11400000, guid: 8c442b046cffe574eb7323e1c36c83cc, type: 2}
+  perso: {fileID: 0}
   QuestionButton: 0
 --- !u!1 &951892131
 GameObject:
@@ -3685,6 +3685,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56eef606e676ce94e8c83285495be65d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spritesData: []
+  TheLastQuest:
+    variantes:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    answer: {fileID: 0}
+  textBox: {fileID: 187358827}
 --- !u!1 &1268178153
 GameObject:
   m_ObjectHideFlags: 0
@@ -4145,8 +4158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -778, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -744.14795, y: 0}
+  m_SizeDelta: {x: 267.7041, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1584021793
 MonoBehaviour:
@@ -4195,8 +4208,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4233,7 +4246,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -19.396244, w: 0}
+  m_margin: {x: 0, y: 0, z: 1.1369286, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

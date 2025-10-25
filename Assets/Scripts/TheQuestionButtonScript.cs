@@ -33,28 +33,28 @@ public class TheQuestionButtonScript : MonoBehaviour
 
     int GetTheVariante()
     {
-        if (choiceManager.stat1 > 4 && choiceManager.stat2! > 4 && choiceManager.stat3! > 4)
+        if (choiceManager.stat1 > 2 && choiceManager.stat2! > 2 && choiceManager.stat3! > 2)
         { return 0; }
 
-        if (choiceManager.stat1! > 4 && choiceManager.stat2 > 4 && choiceManager.stat3! > 4)
+        if (choiceManager.stat1! > 2 && choiceManager.stat2 > 2 && choiceManager.stat3! > 2)
         { return 1; }
 
-        if (choiceManager.stat1! > 4 && choiceManager.stat2! > 4 && choiceManager.stat3 > 4)
+        if (choiceManager.stat1! > 2 && choiceManager.stat2! > 2 && choiceManager.stat3 > 2)
         { return 2; }
 
-        if (choiceManager.stat1 > 4 && choiceManager.stat2 > 4 && choiceManager.stat3! > 4)
+        if (choiceManager.stat1 > 2 && choiceManager.stat2 > 2 && choiceManager.stat3! > 2)
         { return 3; }
 
-        if (choiceManager.stat1 > 4 && choiceManager.stat2! > 4 && choiceManager.stat3 > 4)
+        if (choiceManager.stat1 > 2 && choiceManager.stat2! > 2 && choiceManager.stat3 > 2)
         { return 4; }
 
-        if (choiceManager.stat1! > 4 && choiceManager.stat2 > 4 && choiceManager.stat3 > 4)
+        if (choiceManager.stat1! > 2 && choiceManager.stat2 > 2 && choiceManager.stat3 > 2)
         { return 5; }
 
-        if (choiceManager.stat1 > 4 && choiceManager.stat2 > 4 && choiceManager.stat3 > 4)
+        if (choiceManager.stat1 > 2 && choiceManager.stat2 > 2 && choiceManager.stat3 > 2)
         { return 6; }
 
-        if (choiceManager.stat1! > 4 && choiceManager.stat2! > 4 && choiceManager.stat3! > 4)
+        if (choiceManager.stat1! > 2 && choiceManager.stat2! > 2 && choiceManager.stat3! > 2)
         { return 7; }
 
         return 69;
