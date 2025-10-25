@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Golem1
   m_EditorClassIdentifier: 
   lines:
-  - "Parce que je veux te pr\xE9parer au mieux \xE0 ce qui t\u2019attend. Je sais
+  - "<b>Parce que je veux te pr\xE9parer au mieux \xE0 ce qui t\u2019attend. Je sais
     que tu d\xE9testes \xE7a mais un jour tu me remerciera. Plus vite tu comprendras,
     mieux \xE7a sera. Il y a beaucoup de choses \xE0 faire quand tu es adulte, mais
-    tu prendra l\u2019habitude."
+    tu prendra l\u2019habitude.</b>"

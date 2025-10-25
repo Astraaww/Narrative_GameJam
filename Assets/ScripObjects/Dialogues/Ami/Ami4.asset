@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: Ami4
   m_EditorClassIdentifier: 
   lines:
-  - "Votre \u201Cami\u201D, mon petit, n\u2019est qu'un trouble f\xEAte, souffrant
-    d\u2019un cruel manque de discipline. \r\nIl est, voyez-vous, aux antipodes de
-    ce que vous devriez \xEAtre. Un z\xE9bulon ne saurait atteindre les hauteurs
-    de l\u2019excellence. Il serait f\xE2cheux que sa pi\xE8tre influence ne s\xE9visse
-    sur vous. Oubliez le tr\xE8s vite, il n\u2019y a qu\u2019une seule place au sommet,
-    concentrez vous plut\xF4t sur vos le\xE7ons.\r"
+  - "<color=#00FFFF>Pas toi ? J\u2019veux dire, tu veux leur ressembler ?\r\n\r\nMalheureux,
+    \xE9puis\xE9,et qu\u2019sa chouine, et qu\u2019sa crie, fin\u2026 Tu parles d\u2019une
+    ambiance.  \r\n\r\nJ\u2019ai jamais vu un enfant s\u2019plaindre de son quotidien.
+    Tous les enfants sont heureux, jusqu\u2019\xE0 ce que les grandes personnes les
+    plongent dans la vie adulte de force.</color> \r"

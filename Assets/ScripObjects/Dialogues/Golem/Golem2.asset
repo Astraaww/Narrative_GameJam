@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Golem2
   m_EditorClassIdentifier: 
   lines:
-  - "Parce que tu n\u2019as pas le choix. Tout le monde doit devenir un adulte.\r\nSi
+  - "<b>Parce que tu n\u2019as pas le choix. Tout le monde doit devenir un adulte.\r\nSi
     tu refuses, tu seras confront\xE9 \xE0 un monde trop dur et cruel pour toi. Il
-    vaut mieux se faire une raison. C\u2019est pour ton bien tu comprends ?\r"
+    vaut mieux se faire une raison. C\u2019est pour ton bien tu comprends ?</b>\r"

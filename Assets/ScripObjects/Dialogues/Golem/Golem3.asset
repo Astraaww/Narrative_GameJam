@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Golem3
   m_EditorClassIdentifier: 
   lines:
-  - "La ma\xEEtresse veut bien faire, mais elle se trompe. Rien de ce qu\u2019elle
+  - "<b>La ma\xEEtresse veut bien faire, mais elle se trompe. Rien de ce qu\u2019elle
     t\u2019apprend n\u2019est essentiel pour survivre dans le monde adulte.\r\n\r\n\xCAtre
     mature et responsable \xE0 bien plus de valeur dans notre monde que d\u2019\xEAtre
-    parfait. Il faut suivre le courant, pas se d\xE9marquer.\r"
+    parfait. Il faut suivre le courant, pas se d\xE9marquer.</b>\r"

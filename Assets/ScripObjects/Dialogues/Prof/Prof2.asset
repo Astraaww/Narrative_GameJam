@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Prof2
   m_EditorClassIdentifier: 
   lines:
-  - "Car vous-\xEAtes d\xE9j\xE0 sur le chemin pour devenir un adulte accompli. Chacun
-    s\u2019y engage, mais tous ne sont pas capables d\u2019arriver au bout. \r\nIls
-    deviennent effectivement des adultes, mais m\xE9diocre, qui n\u2019ont jamais
-    r\xE9ussi \xE0 se d\xE9barrasser de l\u2019imperfection caract\xE9ristique de
-    l\u2019enfant.\r\nVos le\xE7ons vous sont d\xE9livr\xE9es pour vous guider jusqu\u2019au
-    bout de ce long et laborieux sentier, et devenir ce que chacun devrait aspirer
-    \xE0 \xEAtre.\r"
+  - "<i>Car vous-\xEAtes d\xE9j\xE0 sur le chemin pour devenir un adulte accompli.
+    Chacun s\u2019y engage, mais tous ne sont pas capables d\u2019arriver au bout.
+    \r\nIls deviennent effectivement des adultes, mais m\xE9diocre, qui n\u2019ont
+    jamais r\xE9ussi \xE0 se d\xE9barrasser de l\u2019imperfection caract\xE9ristique
+    de l\u2019enfant.\r\nVos le\xE7ons vous sont d\xE9livr\xE9es pour vous guider
+    jusqu\u2019au bout de ce long et laborieux sentier, et devenir ce que chacun
+    devrait aspirer \xE0 \xEAtre.</i>\r"

@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: ProfGrand
   m_EditorClassIdentifier: 
   lines:
-  - Capibara
+  - "<i>\xCAtre grand, tr\xE8s ch\xE8re, c\u2019est \xEAtre comme moi. C\u2019est
+    ne commettre aucun impaire, cesser de d\xE9passer des limites \xE9tablies, briller
+    par son excellence et sa vivacit\xE9 d\u2019esprit. C\u2019est le savoir-\xEAtre
+    ma\xEEtris\xE9 \xE0 la perfection. \xCAtre grand c\u2019est se taire et apprendre
+    ses le\xE7ons.</i>"

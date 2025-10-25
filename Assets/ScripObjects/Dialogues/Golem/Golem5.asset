@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Golem5
   m_EditorClassIdentifier: 
   lines:
-  - "Ca viendra tout seul, en m\xFBrissant. Mais tu ne dois pas lutter. Si tu te
-    braques, \xE7a sera encore plus d\xE9sagr\xE9able. Quand tu dois faire quelque
-    chose, fais-le. Garde la t\xEAte basse et tout ira bien. "
+  - "<b>Ca viendra tout seul, en m\xFBrissant. Mais tu ne dois pas lutter. Si tu
+    te braques, \xE7a sera encore plus d\xE9sagr\xE9able. Quand tu dois faire quelque
+    chose, fais-le. Garde la t\xEAte basse et tout ira bien.</b>"

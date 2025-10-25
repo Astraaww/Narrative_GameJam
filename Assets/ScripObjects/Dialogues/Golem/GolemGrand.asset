@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: GolemGrand
   m_EditorClassIdentifier: 
   lines:
-  - les znes qui disent feur il cassent les couilles gneu gneu
+  - "<b>\xCAtre grand c\u2019est \xEAtre comme nous. Avoir un quotidien d\u2019adulte,
+    des responsabilit\xE9s d\u2019adulte. Aller travailler, g\xE9rer son argent,
+    s\u2019occuper de sa famille, entretenir sa maison, faire \xE0 manger, faire
+    les courses, payer ses imp\xF4ts.</b> "

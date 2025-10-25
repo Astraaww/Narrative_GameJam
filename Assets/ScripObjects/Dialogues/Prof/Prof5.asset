@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Prof5
   m_EditorClassIdentifier: 
   lines:
-  - "Il faut \xE9couter, faire preuve d\u2019une grande rigueur, de discipline, mais
-    \xE9galement d\u2019humilit\xE9.\r\nLes le\xE7ons que je vous enseigne sauront
+  - "<i>Il faut \xE9couter, faire preuve d\u2019une grande rigueur, de discipline,
+    mais \xE9galement d\u2019humilit\xE9.\r\nLes le\xE7ons que je vous enseigne sauront
     vous guider sur la voie. \r\nMais pour cela vous DEVEZ m\u2019\xE9couter, et
-    vous \xE9fforcer d\u2019atteindre l'excellence. \r"
+    vous \xE9fforcer d\u2019atteindre l'excellence. </i>\r"

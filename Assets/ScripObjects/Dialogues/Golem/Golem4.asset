@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Golem4
   m_EditorClassIdentifier: 
   lines:
-  - "Ils grandiront aussi, et se rangeront \xE0 notre avis.\r\nSi c\u2019\xE9tait
+  - "<b>Ils grandiront aussi, et se rangeront \xE0 notre avis.\r\nSi c\u2019\xE9tait
     si horrible, personne ne voudrait devenir un adulte. \r\nCrois moi si tu reste
     un enfant, tu seras en marge et seul. Un enfant ne survit pas dans le monde des
-    adultes.\r"
+    adultes.</b>\r"

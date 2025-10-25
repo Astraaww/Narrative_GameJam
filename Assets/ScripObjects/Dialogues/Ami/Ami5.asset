@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Ami5
   m_EditorClassIdentifier: 
   lines:
-  - "Il faut \xE9couter, faire preuve d\u2019une grande rigueur, de discipline, mais
-    \xE9galement d\u2019humilit\xE9.\r\nLes le\xE7ons que je vous enseigne sauront
-    vous guider sur la voie. \r\nMais pour cela vous DEVEZ m\u2019\xE9couter, et
-    vous \xE9fforcer d\u2019atteindre l'excellence. \r"
+  - "<color=#00FFFF>Changes rien et surtout \xE9coutes pas squ\u2019ils disent. \r\nS'
+    ils forcent dit juste oui oui et ignore les.\r\nFaut rester cr\xE9atif tu vois
+    ? \r\nPas besoin de</color> <b>suivre le courant</b> <color=#00FFFF>ou de</color>
+    <i>luir d\u2019excellence\u2026</i>\r\n<color=#00FFFF>Faut juste faire c\u2019que
+    tu veux quand tu veux et tant qu\u2019sa t\u2019amuse</color>.\r"

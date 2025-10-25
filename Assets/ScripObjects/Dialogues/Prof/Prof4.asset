@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Prof4
   m_EditorClassIdentifier: 
   lines:
-  - "Votre \u201Cami\u201D, mon petit, n\u2019est qu'un trouble f\xEAte, souffrant
+  - "<i>Votre \u201Cami\u201D, mon petit, n\u2019est qu'un trouble f\xEAte, souffrant
     d\u2019un cruel manque de discipline. \r\nIl est, voyez-vous, aux antipodes de
     ce que vous devriez \xEAtre. Un z\xE9bulon ne saurait atteindre les hauteurs
     de l\u2019excellence. Il serait f\xE2cheux que sa pi\xE8tre influence ne s\xE9visse
     sur vous. Oubliez le tr\xE8s vite, il n\u2019y a qu\u2019une seule place au sommet,
-    concentrez vous plut\xF4t sur vos le\xE7ons.\r"
+    concentrez vous plut\xF4t sur vos le\xE7ons.</i>\r"

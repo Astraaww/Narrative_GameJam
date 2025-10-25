@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: AmiGrand
   m_EditorClassIdentifier: 
   lines:
-  - coubeh
+  - "\u2192 <color=#00FFFF>Etre grand c\u2019est dev\u2019nir chiant, donner des
+    ordres \xE0 tout le monde et passer sont temps \xE0 s\u2019plaindre. C\u2019est
+    arr\xEAter de jouer, de rire, de faire des conneires.</color>.\r\n"
