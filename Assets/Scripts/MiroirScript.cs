@@ -25,7 +25,7 @@ public class MiroirScript : MonoBehaviour
 
     bool CanContinue()
     {
-        if (manager.creditDialogue == 0)
+        if (manager.creditDialogue <= 0)
             return true;
 
         return false;
@@ -39,28 +39,28 @@ public class MiroirScript : MonoBehaviour
     //enlevez ça de ma vue
     void CalculateEnd()
     {
-        if (choiceManager.stat1 > 3 && choiceManager.stat2! > 3 && choiceManager.stat3! > 3)
+        if (choiceManager.stat1 >= 3 && choiceManager.stat2 < 3 && choiceManager.stat3 < 3)
         { textBox.text =  TheLastQuest.variantes[0]; useSprite = spritesData[0]; }
 
-        if (choiceManager.stat1! > 3 && choiceManager.stat2 > 3 && choiceManager.stat3! > 3)
+        if (choiceManager.stat1 < 3 && choiceManager.stat2 >= 3 && choiceManager.stat3 < 3)
         { textBox.text = TheLastQuest.variantes[1]; useSprite = spritesData[1]; }
 
-        if (choiceManager.stat1! > 3 && choiceManager.stat2! > 3 && choiceManager.stat3 > 3)
+        if (choiceManager.stat1 < 3 && choiceManager.stat2 < 3 && choiceManager.stat3 >= 3)
         { textBox.text = TheLastQuest.variantes[2]; useSprite = spritesData[2]; }
 
-        if (choiceManager.stat1 > 3 && choiceManager.stat2 > 3 && choiceManager.stat3! > 3)
+        if (choiceManager.stat1 >= 3 && choiceManager.stat2 >= 3 && choiceManager.stat3 < 3)
         { textBox.text = TheLastQuest.variantes[3]; useSprite = spritesData[3]; }
 
-        if (choiceManager.stat1 > 3 && choiceManager.stat2! > 3 && choiceManager.stat3 > 3)
+        if (choiceManager.stat1 >= 3 && choiceManager.stat2 < 3 && choiceManager.stat3 >= 3)
         { textBox.text = TheLastQuest.variantes[4]; useSprite = spritesData[4]; }
 
-        if (choiceManager.stat1! > 3 && choiceManager.stat2 > 3 && choiceManager.stat3 > 3)
+        if (choiceManager.stat1 < 3 && choiceManager.stat2 >= 3 && choiceManager.stat3 >= 3)
         { textBox.text = TheLastQuest.variantes[5]; useSprite = spritesData[5]; }
 
-        if (choiceManager.stat1 > 3 && choiceManager.stat2 > 3 && choiceManager.stat3 > 3)
+        if (choiceManager.stat1 >= 3 && choiceManager.stat2 >= 3 && choiceManager.stat3 >= 3)
         { textBox.text = TheLastQuest.variantes[6]; useSprite = spritesData[6]; }
 
-        if (choiceManager.stat1! > 3 && choiceManager.stat2! > 3 && choiceManager.stat3! > 3)
+        if (choiceManager.stat1 < 3 && choiceManager.stat2 < 3 && choiceManager.stat3 < 3)
         { textBox.text = TheLastQuest.variantes[7]; useSprite = spritesData[7]; }
 
     }

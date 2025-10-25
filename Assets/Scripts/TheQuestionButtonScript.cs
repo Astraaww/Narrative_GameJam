@@ -27,8 +27,8 @@ public class TheQuestionButtonScript : MonoBehaviour
 
     public void OnClick()
     {
-        dialogManager.StartDialog(data.answer);
         choiceManager.AddTemporaryStats();
+        dialogManager.StartDialog(data.answer);
         counterManager.RemoveOneCredit();
     }
 
