@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - "<b>La ma\xEEtresse veut bien faire, mais elle se trompe. Rien de ce qu\u2019elle
-    t\u2019apprend n\u2019est essentiel pour survivre dans le monde adulte.\r\n\r\n\xCAtre
+    t\u2019apprend n\u2019est essentiel pour survivre dans le monde adulte.\r\n\r\xCAtre
     mature et responsable \xE0 bien plus de valeur dans notre monde que d\u2019\xEAtre
     parfait. Il faut suivre le courant, pas se d\xE9marquer.</b>\r"

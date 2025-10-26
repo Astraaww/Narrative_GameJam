@@ -248,14 +248,16 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a4a0dcecb088dc548baf04fb47b82e3a, type: 3}
   TheLastQuest:
     variantes:
-    - lihkbvyefZRG
-    - "REFG\xA80PIIKzbghvroujGN"
-    - Ezfoujbzbfnozj
-    - "AEFoiuanebhf\xF4UJABF"
-    - "ZGF\xB0I\xA8HNZgvjnzIFZ"
-    - ERFUBZQPSOIFVUHZmosjfjuvh
-    - LOUSEHFGPEZ9FGBeidfhnZUJR
-    - "fuj<bqfug<mefyrzrhgiqz\xE8ygo\xF9zr\xF9^g"
+    - "<color=#00FFFF>La porte ! C\u2019est bon l\xE0 ? Tu peux m\u2019ouvrir ?!</color>"
+    - "<i>Sieur porte, je m\u2019estime pr\xEAt \xE0 passer !</i>"
+    - <b>Porte, ouvre toi. Je suis grand maintenant.</b>
+    - "<i>Sieur porte,</i> <color=#00FFFF>C\u2019est bon l\xE0 ? J\u2019suis</color>
+      <i>pr\xEAt \xE0 passer.</i>"
+    - "<b>Porte, ouvre toi.</b> <i>Je m\u2019estime pr\xEAt \xE0 passer !</i>"
+    - "<b>Porte,</b> <color=#00FFFF>C\u2019est bon l\xE0 ?</color> <b>Ouvre toi.</b>"
+    - "<color=#00FFFF>La porte ! C\u2019est bon l\xE0 ?</color> <i>je m\u2019estime
+      pr\xEAt \xE0 passer !</i> <b>Je suis grand maintenant.</b>"
+    - La porte, je suis grand maintenant !
     answer: {fileID: 0}
   textBox: {fileID: 1419914015}
   image: {fileID: 964904258}
@@ -2857,14 +2859,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
     variantes:
-    - kabbomm
-    - "j'ai trop mal \xE9ccrit"
-    - glbskf
-    - oui oui baguette
-    - "qui dit chocolati** s\xE9rieux ce mot est horrible"
-    - lisez pas
-    - sinon je me flingue
-    - et vouis voulez pas perdr votre codeur
+    - "<color=#00FFFF>Keske sa veut dire \xEAt grand ?</color>"
+    - "<i>Comment d\xE9finiriez-vous le terme \u201Cgrand\u201D ?</i>"
+    - "<b>Qu\u2019est ce que \xE7a veut dire de grandir ?</b>"
+    - "<color=#00FFFF>Keske sa veut dire le</color> <i>terme \u201Cgrand\u201D ?</i>"
+    - "<b>Qu\u2019est ce que \xE7a veut dire</b> <i>le terme \u201Cgrand\u201D ?</i>"
+    - "<color=#00FFFF>Keske</color> <b>\xE7a veut dire</b> <color=#00FFFF>\xEAt grand
+      ?</color>"
+    - "<color=#00FFFF>Keske</color> <b>\xE7a veut dire</b> <i>le terme \u201C</i><color=#00FFFF>\xEAt
+      grand\u201D ?</color>"
+    - "C\u2019est quoi \xEAtre grand ?"
     answer: {fileID: 0}
   whatStyle: 0
   choiceManager: {fileID: 185359727}
@@ -4638,7 +4642,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet
+  m_text: Quitter la conversation.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
   m_sharedMaterial: {fileID: -95070332056827303, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
@@ -5291,7 +5295,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: And thus, you shall see the reflexion of your actions.
+  m_text: "C'est donc \xE0 \xE7a que tu souhaites ressembler. eh bien... la porte
+    est ouverte."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}
   m_sharedMaterial: {fileID: -95070332056827303, guid: 9d5635506c75b454d8a45a043641f68c, type: 2}

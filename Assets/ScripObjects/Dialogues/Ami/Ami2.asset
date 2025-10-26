@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - "<color=#00FFFF>Pff ! Eh, si tu les \xE9coutes, y vont tous te d\u2019mander
-    d\u2019grandir. Mais bon, ils vendent mal leur truc.\r\nMoi j\u2019suis tranquille,
+    d\u2019grandir. Mais bon, ils vendent mal leur truc.Moi j\u2019suis tranquille,
     j\u2019fais toutes les conneries que j\u2019veux et m\xEAme pas j\u2019en est
     quequ\u2019chose \xE0 faire des punitions, j\u2019les fait pas t\u2019fa\xE7on.\r\nIls
     sont juste hypocrites. Puis bah en vrai on s\u2019en fout de la porte, reste
     jouer nan ? T\u2019es pas dr\xF4le si tu va l\u2019ouvrir t\u2019fa\xE7on. Le
-    premier qui la touche c\u2019est un nullos bahaha !</color>\r"
+    premier qui la touche c\u2019est un nullos bahaha !</color>\r\n"
