@@ -94,5 +94,5 @@ MonoBehaviour:
       t\xE2ches hercul\xE9ennes ?</i>"
     - "C\u2019est quand que j\u2019aurais tout \xE7a \xE0 faire ?"
     answer: {fileID: 11400000, guid: ee2c6acdb274b124eb10d214b52e952b, type: 2}
-  textSpeed: 0.2
+  textSpeed: 0.1
   whatStyle: 3

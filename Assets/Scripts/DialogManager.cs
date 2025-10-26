@@ -58,6 +58,9 @@ public class DialogManager : MonoBehaviour
         }
     }
 
+    public void ResetBox()
+    { textComponent.text = string.Empty; }
+
     void Nextline()
     {
         if (index < texte.lines.Length - 1)

@@ -66,7 +66,6 @@ public class MiroirScript : MonoBehaviour
 
 
 
-
     //enlevez ça de ma vue
     void CalculateEnd()
     {

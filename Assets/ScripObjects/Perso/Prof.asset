@@ -82,5 +82,5 @@ MonoBehaviour:
       <color=#00FFFF>tarpin</color> <i>divine</i> ?"
     - Comment on brille ?
     answer: {fileID: 11400000, guid: 738aa73fc09275644bfff019475ca095, type: 2}
-  textSpeed: 0.1
+  textSpeed: 0.05
   whatStyle: 2

@@ -48,13 +48,14 @@ public class ButtonScript : MonoBehaviour
             if (counterManager.creditDialogue > 0)
             {
                 AddPermaStat();
+                manager.ResetBox();
                 manager.StartDialog(réponse);
                 hasClicked = true;
                 gameObject.GetComponent<Button>().enabled = !hasClicked;
                 gameObject.SetActive(!hasClicked);
                 counterManager.RemoveOneCredit();
             }
-            else { } //gneuh gneuh tu peux pas
+            else { } //gneuh gneuh tu peux pas (mdr je l'ai pas mis)
         }
     }
 

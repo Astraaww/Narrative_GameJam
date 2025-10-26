@@ -81,5 +81,5 @@ MonoBehaviour:
       genre ?</color>
     - Comment on reste cool ?
     answer: {fileID: 11400000, guid: ffc09a1930c7bf54896dae2805301533, type: 2}
-  textSpeed: 0.05
+  textSpeed: 0.01
   whatStyle: 1

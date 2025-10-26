@@ -38,9 +38,9 @@ public class ChoiceManager : MonoBehaviour
 
     public void ReverseTemporary()
     {
-        if (temporaryStat == 1) { stat1 -= 2; }
-        if (temporaryStat == 2) { stat2 -= 2; }
-        if (temporaryStat == 3) { stat3 -= 2; }
+        if (temporaryStat == 1) { stat1 -= 1; }
+        if (temporaryStat == 2) { stat2 -= 1; }
+        if (temporaryStat == 3) { stat3 -= 1; }
     }
 
 
