@@ -45,7 +45,7 @@ public class MiroirScript : MonoBehaviour
     private void Update()
     {
         if (hastimer && indexTimer == 0) { 
-            if (time < 5) { time += Time.deltaTime; } 
+            if (time < 3) { time += Time.deltaTime; } 
             else { 
                 image.GetComponent<Image>().sprite = useSprite;
                 image.SetActive(true);
@@ -59,7 +59,7 @@ public class MiroirScript : MonoBehaviour
             if (time < 5) { time += Time.deltaTime; }
             else
             {
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(0);
             }
         }
     }

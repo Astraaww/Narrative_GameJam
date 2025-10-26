@@ -1,15 +1,30 @@
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-   
+    bool hastimer;
+    float time;
+
+    void Update()
+    {
+        if (hastimer)
+        {
+            if (time < 3) { time += Time.deltaTime; }
+            else { SceneManager.LoadScene(1); }
+        }
+    }
+
+    private void Start()
+    {
+        hastimer = false;
+    }
+
+
 
     public void PlayGame()
     {
-        SceneManager.LoadScene(0);
+        hastimer = true;
     }
 
     public void QuitGame()

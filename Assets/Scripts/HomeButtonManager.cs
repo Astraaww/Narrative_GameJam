@@ -21,6 +21,6 @@ public class HomeButtonManager : MonoBehaviour, IPointerEnterHandler, IPointerEx
 
     public void MainMenu()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }
