@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6caae3f2a49bc914b8ece25942864707, type: 3}
-  m_Name: Ami
+  m_Script: {fileID: 0}
+  m_Name: Ami bug
   m_EditorClassIdentifier: Assembly-CSharp::DataPerso
   anwserTheQuestion: {fileID: 11400000, guid: 87fe9df23421d9a44868f69063f94c02, type: 2}
   questions:

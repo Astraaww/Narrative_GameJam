@@ -261,6 +261,8 @@ MonoBehaviour:
     answer: {fileID: 0}
   textBox: {fileID: 1419914015}
   image: {fileID: 964904258}
+  Panelfin: {fileID: 1668066115}
+  PanelPerso: {fileID: 423025616}
 --- !u!1 &247501280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1483,7 +1485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherButton: {fileID: 963997130}
   CharaButton: 1
-  perso: {fileID: 11400000, guid: 9354eb07ecf655446a865c278eb37c58, type: 2}
+  perso: {fileID: 11400000, guid: cf38b33b76880ca48b6875318856f446, type: 2}
   QuestionButton: 0
 --- !u!1 &648494691
 GameObject:
@@ -2523,7 +2525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherButton: {fileID: 963997130}
   CharaButton: 1
-  perso: {fileID: 11400000, guid: 64b0a93bc7fafba4e81791d93459372b, type: 2}
+  perso: {fileID: 11400000, guid: 21f1a8bc4588bce4d8e38817e610fb3f, type: 2}
   QuestionButton: 0
 --- !u!1 &951892131
 GameObject:
@@ -3155,7 +3157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherButton: {fileID: 963997130}
   CharaButton: 1
-  perso: {fileID: 11400000, guid: 1ce9eaf4103feef4195f07c7a66fd9df, type: 2}
+  perso: {fileID: 11400000, guid: 973b4825c9743894eb35c43ebe6004ff, type: 2}
   QuestionButton: 0
 --- !u!1 &1013926805
 GameObject:
@@ -3816,30 +3818,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: MiroirScript, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1668066115}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 423025616}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

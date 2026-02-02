@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6caae3f2a49bc914b8ece25942864707, type: 3}
-  m_Name: Parent
-  m_EditorClassIdentifier: 
+  m_Script: {fileID: 0}
+  m_Name: Parent bug
+  m_EditorClassIdentifier: Assembly-CSharp::DataPerso
   anwserTheQuestion: {fileID: 11400000, guid: b6814007d4dfb9e4eb5d66b04585a013, type: 2}
   questions:
   - variantes:

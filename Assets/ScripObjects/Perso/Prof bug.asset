@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6caae3f2a49bc914b8ece25942864707, type: 3}
-  m_Name: Prof
-  m_EditorClassIdentifier: 
+  m_Script: {fileID: 0}
+  m_Name: Prof bug
+  m_EditorClassIdentifier: Assembly-CSharp::DataPerso
   anwserTheQuestion: {fileID: 11400000, guid: e5b5cfaf203705445893bb84773dae6d, type: 2}
   questions:
   - variantes:
@@ -38,7 +38,7 @@ MonoBehaviour:
       ?</color>
     - "<b>Pourquoi je devrais</b> <i>m\u2019astreindre \xE0 apprendre mes le\xE7ons
       ?</i>\r\r\n"
-    - "<color=#00FFFF>Eh\u2026 Pourquoi j\u2019dois</color> <b>apprendre mes le\xE7ons
+    - "color=#00FFFF>Eh\u2026 Pourquoi j\u2019dois</color> <b>apprendre mes le\xE7ons
       ?</b>"
     - "<color=#00FFFF>Pourquoi j\u2019dois</color> <i>m\u2019astreindre \xE0</i>
       <b>apprendre mes le\xE7ons ?</b>"

@@ -11,7 +11,7 @@ public class MiroirScript : MonoBehaviour
     Sprite useSprite;
     [SerializeField] Question TheLastQuest;
     [SerializeField] TextMeshProUGUI textBox;
-    [SerializeField] GameObject image;
+    [SerializeField] GameObject image, Panelfin, PanelPerso;
     bool hastimer;
     float time;
     int indexTimer = 0;
@@ -24,7 +24,7 @@ public class MiroirScript : MonoBehaviour
 
     public void OnClick()
     {
-        if (CanContinue()) { CalculateEnd(); } // sorte d'anim avec apparition du sprite (useSprite) avec préalablement un dialogue de la porte ?
+        if (CanContinue()) { CalculateEnd(); Panelfin.SetActive(true); PanelPerso.SetActive(false); } // sorte d'anim avec apparition du sprite (useSprite) avec préalablement un dialogue de la porte ?
         else { } //tu te fais rembarer
 
     }
@@ -63,6 +63,7 @@ public class MiroirScript : MonoBehaviour
             }
         }
     }
+
 
 
 
